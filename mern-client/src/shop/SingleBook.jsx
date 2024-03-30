@@ -20,7 +20,7 @@ const SingleBook = () => {
                     <p className="text-lg font-medium mb-2">Author: {authorName}</p>
                     <p className="text-lg font-medium mb-2">Category: {category}</p>
                     <p className="text-lg mb-4">{bookDescription}</p>
-                    <a href={bookPDFURL} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-sky-700 text-black hover:bg-sky-800 hover:text-white rounded-lg transition duration-300">Read Book (PDF)</a>
+                    <a href={bookPDFURL} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-sky-700 text-black hover:bg-sky-800 hover:text-white rounded-lg transition duration-300">Download Book</a>
                 </div>
             </div>
         </div>
